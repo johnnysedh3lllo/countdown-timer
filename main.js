@@ -1,5 +1,5 @@
 "use strict";
-
+function updateCountDown() {
 const countDownElement = {
   note: document.querySelector(".note"),
   days: document.querySelector(".days"),
@@ -8,7 +8,7 @@ const countDownElement = {
   secs: document.querySelector(".secs"),
 };
 
-function updateCountDown() {
+
   const currentDate = new Date();
   const targetDate = new Date("2024-09-27T12:56:00");
 
